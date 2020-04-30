@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { BrowserRouter, Switch, Route, Link } from 'react-router-dom'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
 import 'bulma'
 import './styles/style.scss'
@@ -12,7 +12,7 @@ import Charts from './components/Charts'
 import SingleArtist from './components/SingleArtist'
 
 const App = () => (
-  <BrowserRouter>
+  <BrowserRouter basename="/Project2">
     <NavBar />
     {/* <Search /> */}
     <Switch>
