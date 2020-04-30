@@ -42,7 +42,7 @@ class SingleArtist extends React.Component {
       <div className="container">
         <div className="columns is-mobile is-multiline">
           <div className="column is-one-quarter-desktop is-one-third-tablet is-half-mobile">
-            <div className="card">
+            <div className="card" id="single-artist-card">
               <div className="album-cover">
                 <figure className="image is-4by3" id="card-album-cover">
                   <img src={data.picture_xl} alt={data.name} />

@@ -12,7 +12,7 @@ import Charts from './components/Charts'
 import SingleArtist from './components/SingleArtist'
 
 const App = () => (
-  <BrowserRouter basename="/Project2">
+  <BrowserRouter basename="/project2">
     <NavBar />
     {/* <Search /> */}
     <Switch>
