@@ -6,8 +6,8 @@ module.exports = {
   entry: './src/app.js',
   output: {
     filename: 'bundle.js',
-    path: path.resolve('dist'),
-    publicPath: 'https://fin101.github.io/Project2'
+    path: path.resolve(''),
+    publicPath: '/project2/'
   },
   module: {
     rules: [
