@@ -1,5 +1,6 @@
 html, body {
   height: 100vh;
+  // padding-top: 50px;
 }
 
 
@@ -86,12 +87,12 @@ h5 {
 //   border-top-right-radius: 30px;
 // }
 
-// .singleArtistCard{
-//   width: 500px;
-//   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-//   text-align: center;
-//   align-content: center;
-// }
+#singleArtistCard{
+  width: 500px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  align-content: center;
+}
 
 audio{
   width: 220px;
